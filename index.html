@@ -21,7 +21,7 @@
             <span>Voltar</span>
         </div>
         <h1>Formulário de matrícula</h1>
-        <p>Preencha os dados abaixo para matricular seu filho na escola de educaqäo infantil Estrelas do Amanhä.</p>
+        <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhä.</p>
         
     <form method="post" enctype="multipart/form-data">
       <fieldset class="child-info">
@@ -30,7 +30,8 @@
         <div class="input-wrapper">
             <label for="fullname" >Nome completo</label>
             <input 
-            id="fullname" 
+            id="fullname"
+            name="fullname"
             type="text" 
             placeholder="Qual o nome da criança">
         </div>
@@ -77,7 +78,7 @@
         <legend>Endereço residencial</legend>
 
         <div class="input-wrapper">
-            <label for="CEP"></label>
+            <label for="CEP">CEP</label>
             <input type="text" id="cep" name="cep">
         </div>
 
@@ -128,47 +129,53 @@
             </div>
         </div>
       </fieldset>
+      
       <fieldset class="enroll-optiions">
         <legend>Opções de matrícula</legend>
 
         <div class="input-wrapper">
             <label>Selecione o turno de estudo</label>
-
-            <div class="radio-wrapper">
-                <div class="radio-inner">
-                    <div class="radio-image">
-                        <input type="radio" name="study-shift" value="morning"  id="morning">
-                        <img src="assets/ícons/sun-cloud-02.svg" alt="ícone de sol com nuvem">
-                        <label for="morning">Manhã</label>
+                <div class="radio-wrapper">
+                    <div class="radio-inner">
+                        <div class="radio-image">
+                            <input type="radio" name="study-shift" value="morning" id="morning">
+                            <img src="assets/ícons/sun-cloud-02.svg" alt="ícone de sol com nuvem">
+                            <label for="morning">Manhã</label>
+                        </div>
                     </div>
                     <div class="radio-inner">
-                    <div class="radio-image">
-                        <input type="radio" name="study-shift" value="evening"  id="evening">
-                        <img src="assets/ícons/sun-02.svg" alt="ícone de sol">
-                        <label for="evening">Tarde</label>
+                        <div class="radio-image">
+                            <input type="radio" name="study-shift" value="evening" id="evening">
+                            <img src="assets/ícons/sun-02.svg" alt="ícone de sol">
+                            <label for="evening">Tarde</label>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-      </fieldset>
-    </form>
+            </fieldset>
+        </form>
     </div>
-    </main>
-    
-    <aside>
-        <div class="aside-container">
-            <header><img src="assets/logo.svg" alt="Logo Estrelas do Amanhã">
+</main>
+<aside>
+    <div class="aside-container">
+        <header><img src="assets/logo.svg" alt="Logo Estrelas do Amanhã">
             <h2>Porque cada momento de 
                 <span>
                     aprendizado
                 </span>
                 conta
-                </h2>
+            </h2>
             <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante</p>
         </header>
-
         <img src="assets/Ilustrações.svg" alt="Ilustração de uma professora com crianças prestando atenção">
-        </div>
-        </aside>
     </div>
+</aside>
+</div>
 </body>
 </html>
+
+                    
+
+
+                            
+
+    
